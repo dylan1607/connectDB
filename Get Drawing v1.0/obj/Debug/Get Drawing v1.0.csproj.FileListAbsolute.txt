@@ -1,0 +1,31 @@
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v1.0.exe.config
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v1.0.exe
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v1.0.pdb
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get_Drawing_v1._0.Properties.Resources.resources
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.GenerateResource.Cache
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.exe
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.pdb
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get_Drawing.Form1.resources
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v1.0.exe.manifest
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v1.0.application
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.TrustInfo.xml
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.exe.manifest
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.application
+D:\Dropbox\SPC\Send data to PLC\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csprojResolveAssemblyReference.cache
+Z:\SOFTWARE\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v1.0.exe.config
+Z:\SOFTWARE\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.pdb
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csprojAssemblyReference.cache
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get_Drawing.Form1.resources
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get_Drawing_v1._0.Properties.Resources.resources
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.GenerateResource.cache
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.CoreCompileInputs.cache
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.TrustInfo.xml
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.pdb
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.config
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.manifest
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.application
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.pdb
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe.manifest
+D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.application
