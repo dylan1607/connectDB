@@ -29,3 +29,48 @@ D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get D
 D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.pdb
 D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe.manifest
 D:\Get Drawing v3.0\New folder\Get Drawing v1.0\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.application
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.config
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.manifest
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.application
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.pdb
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csprojAssemblyReference.cache
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get_Drawing.Form1.resources
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get_Drawing_v1._0.Properties.Resources.resources
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.GenerateResource.cache
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.CoreCompileInputs.cache
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.TrustInfo.xml
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe.manifest
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.application
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe
+D:\Get Drawing v3.0\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.pdb
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.config
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.manifest
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.application
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.pdb
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csprojAssemblyReference.cache
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get_Drawing.Form1.resources
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get_Drawing_v1._0.Properties.Resources.resources
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.GenerateResource.cache
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.CoreCompileInputs.cache
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.TrustInfo.xml
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe.manifest
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.application
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe
+C:\Users\nguyen.tran\Desktop\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.pdb
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.config
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe.manifest
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.application
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.exe
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\bin\Debug\Get Drawing v4.0.pdb
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csprojAssemblyReference.cache
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get_Drawing.Form1.resources
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get_Drawing_v1._0.Properties.Resources.resources
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.GenerateResource.cache
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v1.0.csproj.CoreCompileInputs.cache
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.TrustInfo.xml
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe.manifest
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.application
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.exe
+C:\Users\nguyen.tran\OneDrive - 株式会社ミスミグループ本社\Project_SPC\GetDrawing-connectDB-Ver4\connectDB\Get Drawing v1.0\obj\Debug\Get Drawing v4.0.pdb

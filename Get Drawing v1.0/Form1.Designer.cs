@@ -48,7 +48,6 @@
             this.chb_press = new System.Windows.Forms.CheckBox();
             this.chb_mold = new System.Windows.Forms.CheckBox();
             this.chb_guide = new System.Windows.Forms.CheckBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -180,17 +179,15 @@
             this.txtBoxPath.ReadOnly = true;
             this.txtBoxPath.Size = new System.Drawing.Size(283, 20);
             this.txtBoxPath.TabIndex = 13;
-            this.txtBoxPath.Visible = false;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(877, 30);
+            this.button4.Location = new System.Drawing.Point(877, 33);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(168, 23);
+            this.button4.Size = new System.Drawing.Size(170, 25);
             this.button4.TabIndex = 14;
             this.button4.Text = "Browse Folder To Copy Image";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnCopyAll
@@ -240,17 +237,6 @@
             this.chb_guide.UseVisualStyleBackColor = true;
             this.chb_guide.CheckedChanged += new System.EventHandler(this.chb_guide_CheckedChanged);
             // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(877, 7);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(94, 46);
-            this.button5.TabIndex = 19;
-            this.button5.Text = "MORE";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // dataGridView2
             // 
             this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -270,7 +256,6 @@
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1172, 572);
             this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.chb_guide);
             this.Controls.Add(this.chb_mold);
             this.Controls.Add(this.chb_press);
@@ -322,7 +307,6 @@
         private System.Windows.Forms.CheckBox chb_press;
         private System.Windows.Forms.CheckBox chb_mold;
         private System.Windows.Forms.CheckBox chb_guide;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

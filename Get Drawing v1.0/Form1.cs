@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
 using System.Data.Odbc;
@@ -27,7 +23,7 @@ namespace Get_Drawing
 
         DataTable dt_drawing_list = new DataTable();
 
-        string path_image, path_drawing, olderVersion, sql, abc, division, price, amount;
+        string path_image, path_drawing, olderVersion, sql, abc, division, price, amount, input;
 
         string fileToCopy;
 
@@ -74,23 +70,32 @@ namespace Get_Drawing
         }      
 
         private void Connect_ACCESS()
-        {
-            try
+        {   
+            //CONNECT SERVER DRAWING LIST
+            if (cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[0] || cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[1] || cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[2] || cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[3] || cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[4] || cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[5])
             {
-                connACC.Open();
+                try
+                {
+                    connACC.Open();
+                }
+                catch
+                {
+                    MessageBox.Show("Can Not Connect To DRAWING Server !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             }
-            catch
+            //CONNECT SERVER PUR_SHARE
+            else
             {
-                MessageBox.Show("Can Not Connect To DRAWING Server !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-            try
-            {
-                connPART.Open();
-            }
-            catch
-            {
-                MessageBox.Show("Can Not Connect To DTM_STOCK Server !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    connPART.Open();
+                }
+                catch
+                {
+                    MessageBox.Show("Can Not Connect To DTM_STOCK Server !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             }
 
             if (cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[0])
@@ -99,13 +104,13 @@ namespace Get_Drawing
                 abc = "";
                 division = "";
 
-                // Chức năng chọn Công Đoạn Gia Công
+                //  CHOOSE PROCESS
                 if (!chb_Inspec.Checked)
                     abc = string.Empty;
                 else
                     abc = " and Processe like '%inspection%'";
 
-                // Chức năng chọn bộ phận
+                // CHOOSE DIVISION
                 if (!chb_press.Checked)
                     if (!chb_mold.Checked)
                         if (!chb_guide.Checked)
@@ -224,13 +229,16 @@ namespace Get_Drawing
                 a = 0;
                 sql = "select MATNR, MAKTX " +
                     "from SNKTR2K_DTM_PART " +
-                    "where MATNR like '%" + txt_Search.Text + "%' " +
-                    "or MAKTX like '%" + txt_Search.Text + "%' ";
+                    "where MATNR like '%" + input + "%' " +
+                    "or MAKTX like '%" + input + "%' " +
+                    "or MAKTX like UCASE('%" + input + "%') " +
+                    "or MAKTX like LCASE('%" + input + "%') ";
                 dataGridView2.Visible = true;
             }
 
             if (cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[6])
             {
+                
                 if (txt_Search.Text != string.Empty)
                 {
                     OdbcCommand cmd = new OdbcCommand(sql, connPART);
@@ -448,17 +456,17 @@ namespace Get_Drawing
 
                 string destinationDirectory = txtBoxPath.Text+"\\";
 
-            if (destinationDirectory == "\\")
-                MessageBox.Show("Destination Directory Not Exist. !!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);            
-            else
-                try
-                {
-                    File.Copy(fileToCopy, destinationDirectory + Path.GetFileName(fileToCopy));
-                }
-                catch
-                {
-                    MessageBox.Show("Image Already Exists. !!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                if (destinationDirectory == "\\")
+                    MessageBox.Show("Choose Destination Folder. Click button Browser Folder !!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
+                    try
+                    {
+                        File.Copy(fileToCopy, destinationDirectory + Path.GetFileName(fileToCopy));
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Image Already Exists. !!!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
             }
         }
 
@@ -627,19 +635,45 @@ namespace Get_Drawing
 
             //dgv_result.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
         }
-
         // event when enter key pressed
         private void CheckEnter(object sender, System.Windows.Forms.KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
             {
+                if (cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[7])
+                {
+                    string temp1, temp2;
+                    temp1 = txt_Search.Text.ToString().ToLower();
+                    temp2 = temp1[0].ToString().ToUpper();
+                    temp1 = temp1.Substring(1);
+                    input = temp1.Insert(0, temp2);
+                }
                 btn_Search_Click(sender, e);
             }
         }
 
         private void cb_Type_Drawing_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //btn_Search_Click(sender, e);
+            if (cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[7] || cb_Type_Drawing.SelectedItem.ToString() == type_Drawing[6])
+            {
+                chb_press.Hide();
+                chb_mold.Hide();
+                chb_guide.Hide();
+                chb_Inspec.Hide();
+                txtBoxPath.Hide();
+                button4.Hide();
+                btnCopyAll.Hide();
+            }
+            else
+            {
+                chb_press.Show();
+                chb_mold.Show();
+                chb_guide.Show();
+                chb_Inspec.Show();
+                txtBoxPath.Show();
+                button4.Show();
+                btnCopyAll.Show();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

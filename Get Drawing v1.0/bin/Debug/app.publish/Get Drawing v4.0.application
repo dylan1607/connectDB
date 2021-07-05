@@ -14,7 +14,7 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Get Drawing v4.0.exe.manifest" size="6103">
+    <dependentAssembly dependencyType="install" codebase="Application Files\Get Drawing v4.0_1_0_0_9\Get Drawing v4.0.exe.manifest" size="6103">
       <assemblyIdentity name="Get Drawing v4.0.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
