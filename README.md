@@ -7,5 +7,4 @@
 <p>
     Application connect to Oracle Database.<br>
     You can search with just a few characters or all of the text<br>
-    Turn
 </p>
